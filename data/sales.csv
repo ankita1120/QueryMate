@@ -1,0 +1,6 @@
+Order_ID,Customer,Product,Category,Quantity,Price
+101,John,Laptop,Electronics,2,800
+102,Alice,Phone,Electronics,3,500
+103,Bob,Chair,Furniture,5,120
+104,David,Laptop,Electronics,1,800
+105,Sarah,Desk,Furniture,2,300

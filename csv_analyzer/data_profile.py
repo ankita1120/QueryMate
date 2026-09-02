@@ -1,0 +1,22 @@
+def dataset_info(df):
+
+    info = {}
+
+    info["rows"] = df.shape[0]
+    info["columns"] = df.shape[1]
+
+    info["column_names"] = list(df.columns)
+
+    info["missing_values"] = (
+        df.isnull()
+        .sum()
+        .to_dict()
+    )
+
+    info["data_types"] = (
+        df.dtypes
+        .astype(str)
+        .to_dict()
+    )
+
+    return info
