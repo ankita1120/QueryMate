@@ -8,28 +8,21 @@ venv/
 venv1/
 querymate_env/
 .venv/
+venu/
 
-# Environment/secrets
+# Environment / secrets
 .env
 .env.*
 !.env.example
-
-# IDE
-.vscode/
-.idea/
-
-# macOS
-.DS_Store
+api_keys.py
 
 # Logs
 *.log
 
 # Backup files
 agent_backup.py
+
 # IDE / OS files
 .vscode/
 .idea/
 .DS_Store
-
-# Logs
-*.log
